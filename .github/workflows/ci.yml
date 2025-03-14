@@ -78,5 +78,5 @@ jobs:
       - name: "Deploy to Azure App Service"
         uses: azure/webapps-deploy@v2
         with:
-          app-name: app-dometrain-github-actions-spectro-dev # Replace with your app name
+          app-name: app-dometrain-github-actions-spectro-prod # Replace with your app name
           package: "artifacts/"
